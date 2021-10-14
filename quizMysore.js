@@ -14,8 +14,28 @@ var questions=[{
     question:"which is not located in mysore\n a.kukrahalli kere \n b.karanji kere \n c.tannur kere\n",
     answer:"c"
   },{
-    question:"which dam is located in mysore\n a.harangi\n b.krs \n c.badra dam\n",
+    question:"which famous dam is located near mysore\n a.harangi\n b.krs \n c.badra dam\n",
     answer:"b"
+  },
+  {
+    question:"In which year the Mysore state was renamed as karnataka\n a.1968 \n b.1971 \n c.1973 \n d.1975 \n",
+    answer:"c"
+  },
+  {
+   question:"which zoo is present in mysore \n a.Nehru zoological garden\n b.Sri Chamarajendra Zoological Garden \n c.sri krishnarajendra zoological garden\n",
+   answer:"b"
+  },
+  {
+    question:"who is the current raja of mysore\n a.Yaduveer Krishnadatta Chamaraja Wadiyar \n b.Jayachamrajendra Wadiyar \n c.Srikantadatta Narasimharaja Wadiyar \n",
+    answer:"a"
+  },
+  {
+    question:"what is the name of biggest walk through aviary in mysore \n a.shuka vana \n b.karanji lake \n c.kukrahali lake\n",
+    answer:"b"
+  },
+  {
+    question:"which sweet is named after mysore\n a.mysore-pak \n b.mysore-jaamun \n c.mysore-jalebi \n",
+    answer:"a"
   }
   ];
 
@@ -34,3 +54,6 @@ for (var i=0;i<questions.length;i++)
   console.log("------------------------");
 
 }
+
+console.log(`Thank you for participating in the quiz\n
+  your score:${score}`);
